@@ -5,7 +5,7 @@ import logging
 import colorlog
 
 script_path = os.path.abspath(__file__)
-package_path = re.findall(".*/GANs-Semi", script_path)[0]
+package_path = re.findall(".*/semi_gan", script_path)[0]
 dir = os.path.dirname(package_path)
 sys.path.append(dir)
 
